@@ -1,0 +1,215 @@
+
+
+.list {
+    position:relative;
+    list-style-type: none;
+    margin-left: -50px;
+}
+
+.list li {
+    float:left;
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+    letter-spacing: 3px;
+    user-select: none;
+    color: white;
+    width: 50%;
+    
+    transition: opacity 1s;
+}
+
+div {
+    font-family: "Archivo Black", sans-serif;
+}
+
+body
+{
+    margin: auto;
+    text-align: center;
+}
+
+#panel1 {
+    font-family: "Archivo Black", sans-serif;
+    letter-spacing: 5px;
+    user-select: none;
+    color: white;
+    font-weight: bold;
+}
+
+#O {  
+    animation-name: transition;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes transition {
+    0% {color: #fee473;}
+    50% {color:chocolate;}
+    75% {color:#f94343;}
+    100% {color:#ffd635;}
+}
+
+h1 {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+    user-select: none;
+    background-color: slategrey;
+    margin-bottom: 40px;
+    width: auto;
+    color: white;
+    padding: 20px;
+    transition: opacity 1s;
+    opacity: 0.8
+    
+}
+
+h1:hover {
+    opacity: 1.0;
+    
+}
+
+.box1 {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f94343;
+    transition: opacity 1s;
+    opacity: 0.7;
+    padding: 30px;
+}
+
+.box2 {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffd635;
+    transition: opacity 1s;
+    opacity: 0.7;
+    padding: 30px;
+}
+
+.box3 {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffd635;
+    transition: opacity 1s;
+    opacity: 0.7;
+    padding: 30px;
+}
+
+.box4 {
+    font-family: 'Open Sans', sans-serif;
+    background-color: slategrey;
+    transition: opacity 1s;
+    opacity: 0.7;
+    padding: 30px;
+}
+
+.box1:hover, .box2:hover, .box3:hover, .box4:hover {
+    opacity: 1.0;
+    
+}
+
+#shield {
+    text-shadow: 1px 1px 1px black; 
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    color: ghostwhite;
+    display: none;
+    background-image: url("help.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    opacity: 1.0;
+    
+    padding: 40px;
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 99%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0%, 100% 99%, 0% 100%);
+}
+
+#shield2 {
+    text-shadow: 1px 1px 1px black; 
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    color: ghostwhite;
+    display: none;
+    background-image: url("search.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    opacity: 1.0;
+    
+    padding:40px;
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 99%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0%, 100% 99%, 0% 100%);
+}
+
+#shield3 {
+    text-shadow: 1px 1px 1px black; 
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    color: ghostwhite;
+    display: none;
+    background-image: url("list.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    opacity: 1.0;
+    
+    padding:40px;
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 99%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0%, 100% 99%, 0% 100%);
+}
+
+#shield4 {
+    text-shadow: 1px 1px 1px black; 
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    color: ghostwhite;
+    display: none;
+    background-image: url("connect.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    opacity: 1.0;
+    
+    padding:40px;
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 99%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0%, 100% 99%, 0% 100%);
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: slategrey;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: darkslategrey;
+}
+
+roc {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.middle {
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+    text-align: center;
+}
