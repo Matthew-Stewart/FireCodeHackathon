@@ -15,31 +15,32 @@
   </head>
     
   <body>
-      <span id="panel1"><font size=30em>BC<span id="O"><font size=20>O</font></span>N</font></span>
+      <a href="index.html" style="text-decoration: none;"><span id="panel1"><font size=30em>BC<span id="O"><font size=20>O</font></span>N</font></span></a>
       
           
       <h1>A <font style="color:yellow">connection</font> for those in times of need.</h1>
       
-      <ul class ="list">   
-          <li>
-              <div class="box1"><font style="color:yellow">Fire Actions:</font> <br> What to do before and after.<br></div>
-              <div id="shield"> &ensp; Select your position:</div>
-          </li>
-          
-          <li>
-              <div class="box2"><font style="color:#f94343">Search:</font> <br> Find <font color=#1b75e2>Sanctuaries</font> in California.</div>
-              <div id="shield2">&ensp;&ensp;&ensp;&ensp;Enter Location:</div>
-          </li>
-          
+      <div class="box2">Search:&ensp;Find <font color="white";>Sanctuaries</font> in California near you.</div>
+    <div id="shield2">&ensp;&ensp;&ensp;&ensp;Enter Location: <div class="wrap">
+        </div>
+         
+    </div>
+      
+      <ul class ="list">           
           <li>
               <div class="box3"><font style="color:#f94343">Become a Sanctuary!</font> <br>A<font color=#188400;> home</font> to those in need.</div>
-              <div id="shield3"> &ensp; List Now!<br><input type="button" class="button" value="Go"></div>
+              <div id="shield3"> &ensp; List Now!<br><a href="sign.html"><input type="button" class="button" value="Go"></a></div>
               
           </li>
           
           <li>
               <div class="box4"><font style="color:#f94343">Send a Beacon:</font> <br>Get help. Stay safe.</div> 
-              <div id="shield4">&ensp;&ensp;&ensp;&ensp;Fill the Following:</div>
+              <div id="shield4">&ensp;&ensp;&ensp;&ensp;Fill the Following:<br>
+              
+              <a href="sign.html"><input type="button" class="button2" value="Go"></a>
+              
+              
+              </div>
           </li>
       </ul>
       
@@ -53,21 +54,15 @@
       <script src="bower_components/jquery/dist/jquery.js"></script> 
       
       <script>
-          $(document).ready(function(){
-            $(".box1").click(function(){
-                $("#shield").slideToggle(2500);
-            });
-
-            $(".box2").click(function(){
-                $("#shield2").slideToggle(2500);
-            });
+          $(document).ready(function() {
+            $("#shield2").slideToggle(1000);
 
             $(".box3").click(function(){
-                $("#shield3").slideToggle(2500);
+                $("#shield3").slideToggle(1000);
             });
               
             $(".box4").click(function(){
-                $("#shield4").slideToggle(2500);
+                $("#shield4").slideToggle(1000);
             });
           });    
       </script>
