@@ -1,3 +1,3 @@
 # FireCodeHackathon
 
-My contribution
+Run with `FLASK_APP=app.py flask run`
